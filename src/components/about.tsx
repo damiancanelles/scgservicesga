@@ -6,7 +6,7 @@ import { Blockquote } from "flowbite-react";
 
 export default function About() {
     return (
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 my-90">
+        <div className="h-[800px] sm:h-64 xl:h-80 2xl:h-96">
             <Carousel>
                 <div className="h-full p-12">
                     <span className="text-5xl font-extrabold tracking-tight">Where we work ?</span>

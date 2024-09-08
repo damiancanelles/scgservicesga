@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function Header () {
     return (
-            <section className="flex items-center bg-red-900 bg-cover bg-center py-6 mt-24">
-                <div className="box py-8 px-4 mx-auto w-full text-center lg:py-16">
+            <section className="grid grid-cols-12 items-center bg-red-900 bg-cover bg-center py-6 sm:mt-24">
+                <div className="col-span-12 sm:col-span-8 py-8 px-4 mx-auto w-full text-center lg:py-16">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
                         Say Goodbye to Junk, Hello to Clean
                     </h1>
@@ -13,7 +13,7 @@ export default function Header () {
                         At our small business, we handle all types of garbage with precision, ensuring every job is done perfectly.
                     </h3>
                 </div>
-                <div className="box h-auto bg-red-900 py-1 px-4 mx-auto max-w-screen-xl text-center">
+                <div className="col-span-12 sm:col-span-4 h-auto bg-red-900 py-1 px-4 mx-auto max-w-screen-xl text-center">
                     <div className="relative w-80 h-80 my-4">
                         <Image
                             src="/truck_image.jpg"

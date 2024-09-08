@@ -12,7 +12,7 @@ interface CardProps {
 export function CardS( {image, title, content} : CardProps ) {
   return (
     <Card
-      className="w-full max-w-sm m-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      className="w-full max-w-sm m-1 sm:m-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
       imgSrc={image}
     >
