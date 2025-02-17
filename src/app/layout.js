@@ -24,7 +24,7 @@ export const metadata = {
     description: "SCG Services, Home Repairs, Painting, Plumbing & More in Atlanta, Georgia",
     images: [
       {
-        url: "https://scgservicesga.com/op-large_logo.svg", // Path to your image
+        url: "https://scgservicesga.com/large_logo.svg", // Path to your image
         width: 1200,
         height: 630,
         alt: "SCG Services Logo",
