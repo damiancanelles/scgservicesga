@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: false,
+    images: {
+        domains: ["res.cloudinary.com"], // Add Cloudinary to allowed domains
+        loader: "default",
+      },
+};
 
 export default nextConfig;
