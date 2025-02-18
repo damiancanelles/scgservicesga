@@ -19,7 +19,7 @@ export async function generateMetadata() {
         images: data.images?.length > 0
           ? [
               {
-                url: "https://res.cloudinary.com/damiancanelles/image/upload/v1738981246/GC_4_3cb36cadf6.png",
+                url: "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/GC_20_929643c6dd.png",
                 width: 1200,
                 height: 630,
                 alt: data.seo.seoTitle,
