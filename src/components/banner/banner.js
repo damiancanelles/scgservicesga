@@ -1,37 +1,28 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import BannerBackground from "../../../public/banner_background.png";
 
-export default function Banner() {
-  const [phoneNumber, setPhoneNumber] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
+export default async function Banner() {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
-  useEffect(() => {
-    async function fetchContactData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/home?populate=*`);
-        if (!response.ok) throw new Error("Failed to fetch contact information");
-        const fetchedData = await response.json();
+  let phoneNumber = null;
+  let error = null;
 
-        if (fetchedData?.data?.contact?.phone_number) {
-          setPhoneNumber(fetchedData.data.contact.phone_number);
-        } else {
-          throw new Error("Phone number not found in API response");
-        }
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
+  try {
+    const response = await fetch(`${apiUrl}/api/home?populate=*`, {
+      cache: "no-store", // Prevents caching, always fetches fresh data
+    });
+
+    if (!response.ok) throw new Error("Failed to fetch contact information");
+
+    const fetchedData = await response.json();
+    phoneNumber = fetchedData?.data?.contact?.phone_number || null;
+
+    if (!phoneNumber) {
+      throw new Error("Phone number not found in API response");
     }
-
-    fetchContactData();
-  }, []);
+  } catch (err) {
+    error = err.message;
+  }
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center bg-black text-white">
@@ -62,9 +53,7 @@ export default function Banner() {
         </p>
 
         {/* Call Button */}
-        {loading ? (
-          <p className="mt-8 text-gray-300">Loading phone number...</p>
-        ) : error ? (
+        {error ? (
           <p className="mt-8 text-red-500">Error: {error}</p>
         ) : (
           <a

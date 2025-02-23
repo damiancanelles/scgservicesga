@@ -1,25 +1,5 @@
 import CategoryPageComponent from "@/components/pages/category";
 
-export async function generateStaticParams() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  try {
-    const response = await fetch(`${apiUrl}/api/categories`);
-    const json = await response.json();
-    const categories = json.data;
-
-    if (!categories) return [];
-
-    // Return an array of params { id: "category-id" }
-    return categories.map((category) => ({
-      id: category.documentId.toString(), // Ensure ID is a string
-    }));
-  } catch (error) {
-    console.error("Error fetching categories:", error);
-    return [];
-  }
-}
-
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
@@ -56,6 +36,7 @@ export async function generateMetadata({ params }) {
   }
 }
 
-export default function CategoryPage() {
-  return <CategoryPageComponent />;
+export default async function CategoryPage({params}) {
+  const { id } = await params;
+  return <CategoryPageComponent id={id}/>;
 }

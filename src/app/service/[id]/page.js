@@ -1,25 +1,5 @@
 import ServiceDetailComponent from "@/components/pages/service";
 
-export async function generateStaticParams() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  try {
-    const response = await fetch(`${apiUrl}/api/services`);
-    const json = await response.json();
-    const services = json.data;
-
-    if (!services) return [];
-
-    // Return an array of params { id: "service-id" }
-    return services.map((service) => ({
-      id: service.documentId.toString(), // Ensure ID is a string
-    }));
-  } catch (error) {
-    console.error("Error fetching services:", error);
-    return [];
-  }
-}
-
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
@@ -56,6 +36,7 @@ export async function generateMetadata({ params }) {
   }
 }
 
-export default function ServiceDetail() {
-  return <ServiceDetailComponent />;
+export default async function ServiceDetail({params}) {
+  const { id } = await params;
+  return <ServiceDetailComponent id={id} />;
 }

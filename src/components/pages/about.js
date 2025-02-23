@@ -1,40 +1,14 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { BlocksRenderer } from "@strapi/blocks-react-renderer";
 import Image from "next/image";
+import RichTextRenderer from "../strapiDescription";
 
-export default function AboutPageComponent() {
-  const [data, setData] = useState(null);
-  const [members, setMembers] = useState(null);
+export default async function AboutPageComponent() {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/about?populate=*`);
-        const json = await response.json();
-        setData(json.data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    }
+  const dataResponse = await fetch(`${apiUrl}/api/about?populate=*`);
+  const data = await dataResponse.json();  // Convert to JSON
 
-    async function fetchDataMembers() {
-      try {
-        const response = await fetch(
-          `${apiUrl}/api/about?populate[members][populate]=image`
-        );
-        const json = await response.json();
-        setMembers(json.data?.members || []);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    }
-
-    fetchData();
-    fetchDataMembers();
-  }, [apiUrl]);
+  const membersResponse = await fetch(`${apiUrl}/api/about?populate[members][populate]=image`);
+  const members = await membersResponse.json();  // Convert to JSON
 
   const optimizeCloudinaryImage = (url, width = 800) => {
     if (!url.includes("res.cloudinary.com")) return url; 
@@ -57,18 +31,18 @@ export default function AboutPageComponent() {
           {/* Text Section */}
           <div className="text-center md:text-left md:w-1/3">
             <h1 className="text-4xl md:text-5xl font-bold uppercase tracking-wide mb-6">
-              {data.header}
+              {data.data.header}
             </h1>
-            <BlocksRenderer content={data.description} />
+            <RichTextRenderer content={data.data.description}></RichTextRenderer>
           </div>
 
           {/* Image Section - Wider Display */}
           <div className="mt-8 md:mt-0 md:w-2/3 flex justify-center">
-            {data.images?.length > 0 && (
+            {data.data.images?.length > 0 && (
               <div className="relative w-full max-w-4xl h-[400px] md:h-[500px]">
                 <Image
-                  src={optimizeCloudinaryImage(data.images[0].url, 1024)}
-                  alt={data.header}
+                  src={optimizeCloudinaryImage(data.data.images[0].url, 1024)}
+                  alt={data.data.header}
                   fill
                   sizes="(max-width: 768px) 400px, (max-width: 1024px) 600px, 800px"
                   className="rounded-lg shadow-lg object-cover"

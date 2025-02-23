@@ -1,28 +1,10 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
-import { BlocksRenderer } from "@strapi/blocks-react-renderer";
 import Image from "next/image";
+import RichTextRenderer from "../strapiDescription";
 
-export default function ServiceDetailComponent() {
-  const { id } = useParams();
-  const [service, setService] = useState(null);
+export default async function ServiceDetailComponent({id}) {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/services/${id}?populate=*`);
-        const data = await response.json();
-        setService(data.data);
-      } catch (error) {
-        console.error("Error fetching service data:", error);
-      }
-    }
-
-    if (id) fetchData();
-  }, [id]);
+  const responseService = await fetch(`${apiUrl}/api/services/${id}?populate=*`);
+  const service = await responseService.json();
 
   const optimizeCloudinaryImage = (url, width = 600) => {
     if (!url.includes("res.cloudinary.com")) return url;
@@ -44,20 +26,20 @@ export default function ServiceDetailComponent() {
         {/* Text Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl font-bold text-black mb-6 uppercase">
-            {service.title}
+            {service.data.title}
           </h1>
           <div className="text-gray-800 leading-relaxed">
-            <BlocksRenderer content={service.description} />
+            <RichTextRenderer content={service.data.description}></RichTextRenderer>
           </div>
         </div>
 
         {/* Image Section */}
         <div className="lg:w-1/2 flex justify-center">
-          {service.images?.length > 0 && (
+          {service.data.images?.length > 0 && (
             <div className="relative w-[300px] sm:w-[400px] md:w-[500px] h-[350px]">
               <Image
-                src={optimizeCloudinaryImage(service.images[0].url, 500)}
-                alt={service.title}
+                src={optimizeCloudinaryImage(service.data.images[0].url, 500)}
+                alt={service.data.title}
                 fill
                 sizes="(max-width: 768px) 300px, (max-width: 1024px) 400px, 500px"
                 className="rounded-lg shadow-lg object-cover"
