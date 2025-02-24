@@ -15,9 +15,7 @@ export default async function sitemap() {
 
     const categories = categoriesData?.data || [];
     const services = servicesData?.data || [];
-
-    console.log(categories, services);
-
+    
     // Corrected map function (implicit return)
     const categoriesIds = categories.map(({ documentId }) => ({
         url: `${domain}/category/${documentId}`

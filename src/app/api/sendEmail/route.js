@@ -4,8 +4,6 @@ export async function POST(req) {
   try {
     const { to, name, message } = await req.json();
 
-    console.log(to,name, message)
-
     sgMail.setApiKey(process.env.NEXT_PUBLIC_SEND_GRID_KEY); // Set your SendGrid API key
 
     // Email to the Client (User)
@@ -37,7 +35,6 @@ export async function POST(req) {
 
     return Response.json({ message: "Emails sent successfully!" }, { status: 200 });
   } catch (error) {
-    console.log(error.message)
     return Response.json({ error: error.message }, { status: 500 });
   }
 }

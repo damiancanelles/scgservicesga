@@ -54,7 +54,7 @@ export default function Navbar() {
       >
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           {/* Logo */}
-          <a href="/#" className="w-40 md:w-48 h-auto">
+          <a href="/" className="w-40 md:w-48 h-auto">
             <Image
               src={Logo}
               alt="GC Group Logo"
@@ -68,7 +68,7 @@ export default function Navbar() {
           {/* Navigation Links */}
           <ul className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-12 uppercase font-semibold text-lg">
             <li>
-              <a href="/#" className="hover:text-gray-300 transition">
+              <a href="/" className="hover:text-gray-300 transition">
                 Home
               </a>
             </li>
@@ -119,8 +119,15 @@ export default function Navbar() {
               )}
             </li>
 
+              {/* Projects Link */}
             <li>
-              <a href="/about#" className="hover:text-gray-300 transition">
+              <a href="/project" className="hover:text-gray-300 transition">
+                Projects
+              </a>
+            </li>
+            
+            <li>
+              <a href="/about" className="hover:text-gray-300 transition">
                 About
               </a>
             </li>

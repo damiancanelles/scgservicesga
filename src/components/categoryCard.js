@@ -13,7 +13,7 @@ export default function CategoryCard({element}) {
         <div 
               key={element.id} 
               className="relative rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 cursor-pointer"
-              onClick={() => window.location.href = `/category/${service.documentId}`}
+              onClick={() => window.location.href = `/category/${element.documentId}`}
             >
               {/* Image Section with Title Overlay */}
               {element.images?.length > 0 && (
