@@ -124,6 +124,16 @@ export default function Navbar() {
                 About
               </a>
             </li>
+            <li>
+              <a href="/login" className="hover:text-gray-300 transition">
+                Login
+              </a>
+            </li>
+            <li>
+              <a href="/signup" className="hover:text-gray-300 transition">
+                Sign Up
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
