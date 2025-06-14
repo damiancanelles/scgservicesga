@@ -3,15 +3,35 @@ import { useState } from "react";
 
 export default function LoginPageComponent() {
   const [formData, setFormData] = useState({ email: "", password: "" });
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Login form submitted:", formData);
+    try {
+      const response = await fetch(`${apiUrl}/api/auth/local`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          identifier: formData.email,
+          password: formData.password,
+        }),
+      });
+
+      if (!response.ok) throw new Error("Failed to login");
+
+      const data = await response.json();
+      localStorage.setItem("jwt", data.jwt);
+      console.log("Login successful:", data);
+    } catch (error) {
+      console.error("Error logging in:", error);
+    }
   };
 
   return (

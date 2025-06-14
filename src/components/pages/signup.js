@@ -3,15 +3,36 @@ import { useState } from "react";
 
 export default function SignupPageComponent() {
   const [formData, setFormData] = useState({ name: "", email: "", password: "" });
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Sign up form submitted:", formData);
+    try {
+      const response = await fetch(`${apiUrl}/api/auth/local/register`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: formData.name,
+          email: formData.email,
+          password: formData.password,
+        }),
+      });
+
+      if (!response.ok) throw new Error("Failed to sign up");
+
+      const data = await response.json();
+      localStorage.setItem("jwt", data.jwt);
+      console.log("Sign up successful:", data);
+    } catch (error) {
+      console.error("Error signing up:", error);
+    }
   };
 
   return (
