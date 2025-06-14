@@ -1,17 +1,38 @@
 "use client";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function LoginPageComponent() {
   const [formData, setFormData] = useState({ email: "", password: "" });
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState(null);
+  const [serverMessage, setServerMessage] = useState("");
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const router = useRouter();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  const validateForm = () => {
+    let newErrors = {};
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(formData.email.trim())) {
+      newErrors.email = "Invalid email format.";
+    }
+    if (formData.password.trim().length < 6) {
+      newErrors.password = "Password must be at least 6 characters.";
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!validateForm()) return;
+
+    setStatus("loading");
     try {
       const response = await fetch(`${apiUrl}/api/auth/local`, {
         method: "POST",
@@ -24,13 +45,22 @@ export default function LoginPageComponent() {
         }),
       });
 
-      if (!response.ok) throw new Error("Failed to login");
+      if (!response.ok) {
+        const errorData = await response.json();
+        setStatus("error");
+        setServerMessage(errorData.error?.message || "Failed to login");
+        return;
+      }
 
       const data = await response.json();
       localStorage.setItem("jwt", data.jwt);
-      console.log("Login successful:", data);
+      setStatus("success");
+      setServerMessage("Login successful!");
+      setTimeout(() => router.push("/"), 1500);
     } catch (error) {
       console.error("Error logging in:", error);
+      setStatus("error");
+      setServerMessage(error.message);
     }
   };
 
@@ -51,6 +81,9 @@ export default function LoginPageComponent() {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           />
+          {errors.email && (
+            <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+          )}
         </div>
         <div className="mb-6">
           <label htmlFor="password" className="block mb-1">
@@ -65,10 +98,25 @@ export default function LoginPageComponent() {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           />
+          {errors.password && (
+            <p className="text-red-500 text-sm mt-1">{errors.password}</p>
+          )}
         </div>
-        <button type="submit" className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition">
-          Sign In
+        <button
+          type="submit"
+          className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition"
+          disabled={status === "loading"}
+        >
+          {status === "loading" ? "Signing In..." : "Sign In"}
         </button>
+
+        {status && (
+          <p
+            className={`mt-4 text-sm ${status === "success" ? "text-green-600" : "text-red-600"}`}
+          >
+            {serverMessage}
+          </p>
+        )}
       </form>
     </div>
   );

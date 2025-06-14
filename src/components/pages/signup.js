@@ -1,17 +1,41 @@
 "use client";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function SignupPageComponent() {
   const [formData, setFormData] = useState({ name: "", email: "", password: "" });
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState(null);
+  const [serverMessage, setServerMessage] = useState("");
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const router = useRouter();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  const validateForm = () => {
+    let newErrors = {};
+    if (formData.name.trim().length < 2) {
+      newErrors.name = "Name must be at least 2 characters.";
+    }
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(formData.email.trim())) {
+      newErrors.email = "Invalid email format.";
+    }
+    if (formData.password.trim().length < 6) {
+      newErrors.password = "Password must be at least 6 characters.";
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!validateForm()) return;
+
+    setStatus("loading");
     try {
       const response = await fetch(`${apiUrl}/api/auth/local/register`, {
         method: "POST",
@@ -25,13 +49,22 @@ export default function SignupPageComponent() {
         }),
       });
 
-      if (!response.ok) throw new Error("Failed to sign up");
+      if (!response.ok) {
+        const errorData = await response.json();
+        setStatus("error");
+        setServerMessage(errorData.error?.message || "Failed to sign up");
+        return;
+      }
 
       const data = await response.json();
       localStorage.setItem("jwt", data.jwt);
-      console.log("Sign up successful:", data);
+      setStatus("success");
+      setServerMessage("Account created successfully!");
+      setTimeout(() => router.push("/login"), 1500);
     } catch (error) {
       console.error("Error signing up:", error);
+      setStatus("error");
+      setServerMessage(error.message);
     }
   };
 
@@ -52,6 +85,9 @@ export default function SignupPageComponent() {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           />
+          {errors.name && (
+            <p className="text-red-500 text-sm mt-1">{errors.name}</p>
+          )}
         </div>
         <div className="mb-4">
           <label htmlFor="email" className="block mb-1">
@@ -66,6 +102,9 @@ export default function SignupPageComponent() {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           />
+          {errors.email && (
+            <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+          )}
         </div>
         <div className="mb-6">
           <label htmlFor="password" className="block mb-1">
@@ -80,10 +119,25 @@ export default function SignupPageComponent() {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           />
+          {errors.password && (
+            <p className="text-red-500 text-sm mt-1">{errors.password}</p>
+          )}
         </div>
-        <button type="submit" className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition">
-          Create Account
+        <button
+          type="submit"
+          className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition"
+          disabled={status === "loading"}
+        >
+          {status === "loading" ? "Creating..." : "Create Account"}
         </button>
+
+        {status && (
+          <p
+            className={`mt-4 text-sm ${status === "success" ? "text-green-600" : "text-red-600"}`}
+          >
+            {serverMessage}
+          </p>
+        )}
       </form>
     </div>
   );
