@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useAuth } from "@/contexts/AuthContext";
 
 export default function SignupPageComponent() {
   const [formData, setFormData] = useState({ name: "", email: "", password: "" });
@@ -9,6 +10,7 @@ export default function SignupPageComponent() {
   const [serverMessage, setServerMessage] = useState("");
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const router = useRouter();
+  const { login } = useAuth();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -57,10 +59,10 @@ export default function SignupPageComponent() {
       }
 
       const data = await response.json();
-      localStorage.setItem("jwt", data.jwt);
+      login(data.jwt);
       setStatus("success");
       setServerMessage("Account created successfully!");
-      setTimeout(() => router.push("/login"), 1500);
+      setTimeout(() => router.push("/"), 1500);
     } catch (error) {
       console.error("Error signing up:", error);
       setStatus("error");
