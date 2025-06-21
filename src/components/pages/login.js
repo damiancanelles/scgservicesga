@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useAuth } from "@/contexts/AuthContext";
 
 export default function LoginPageComponent() {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -9,6 +10,7 @@ export default function LoginPageComponent() {
   const [serverMessage, setServerMessage] = useState("");
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const router = useRouter();
+  const { login } = useAuth();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -53,7 +55,7 @@ export default function LoginPageComponent() {
       }
 
       const data = await response.json();
-      localStorage.setItem("jwt", data.jwt);
+      login(data.jwt);
       setStatus("success");
       setServerMessage("Login successful!");
       setTimeout(() => router.push("/"), 1500);

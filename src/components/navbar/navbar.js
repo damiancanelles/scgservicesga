@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { useAuth } from "@/contexts/AuthContext";
 import Image from "next/image";
 import Logo from "../../../public/large_logo.svg";
 
@@ -7,6 +8,7 @@ export default function Navbar() {
   const [categories, setCategories] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const { isLoggedIn, logout } = useAuth();
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const dropdownRef = useRef(null);
 
@@ -124,16 +126,29 @@ export default function Navbar() {
                 About
               </a>
             </li>
-            <li>
-              <a href="/login" className="hover:text-gray-300 transition">
-                Login
-              </a>
-            </li>
-            <li>
-              <a href="/signup" className="hover:text-gray-300 transition">
-                Sign Up
-              </a>
-            </li>
+            {isLoggedIn ? (
+              <li>
+                <button
+                  onClick={logout}
+                  className="hover:text-gray-300 transition"
+                >
+                  Logout
+                </button>
+              </li>
+            ) : (
+              <>
+                <li>
+                  <a href="/login" className="hover:text-gray-300 transition">
+                    Login
+                  </a>
+                </li>
+                <li>
+                  <a href="/signup" className="hover:text-gray-300 transition">
+                    Sign Up
+                  </a>
+                </li>
+              </>
+            )}
           </ul>
         </div>
       </nav>
