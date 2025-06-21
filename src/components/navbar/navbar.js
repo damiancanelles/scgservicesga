@@ -130,20 +130,26 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={logout}
-                  className="hover:text-gray-300 transition"
+                  className="hover:text-gray-300 transition uppercase"
                 >
-                  Logout
+                  LOGOUT
                 </button>
               </li>
             ) : (
               <>
                 <li>
-                  <a href="/login" className="hover:text-gray-300 transition">
+                  <a
+                    href="/login"
+                    className="border border-white rounded px-3 py-1 hover:bg-white hover:text-black transition"
+                  >
                     Login
                   </a>
                 </li>
                 <li>
-                  <a href="/signup" className="hover:text-gray-300 transition">
+                  <a
+                    href="/signup"
+                    className="bg-red-600 rounded px-3 py-1 hover:bg-red-700 transition"
+                  >
                     Sign Up
                   </a>
                 </li>
