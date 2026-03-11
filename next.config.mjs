@@ -2,9 +2,13 @@
 const nextConfig = {
     reactStrictMode: false,
     images: {
-        domains: ["res.cloudinary.com"], // Add Cloudinary to allowed domains
-        loader: "default",
-      },
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "res.cloudinary.com",
+            },
+        ],
+    },
 };
 
 export default nextConfig;
