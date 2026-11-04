@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import WhiteNavbar from "@/components/navbar/navbar";
+import { getCategories } from "@/lib/content";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +25,7 @@ export const metadata = {
     description: "SCG Services, Home Repairs, Painting, Plumbing & More in Atlanta, Georgia",
     images: [
       {
-        url: "https://scgservicesga.com/logo_large.png", // Path to your image
+        url: "https://scgservicesatlanta.com/logo_large.png", // Path to your image
         width: 1200,
         height: 630,
         alt: "SCG Services Logo",
@@ -40,7 +41,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <WhiteNavbar></WhiteNavbar>
+        <WhiteNavbar
+          categories={getCategories().map(({ documentId, title }) => ({ documentId, title }))}
+        ></WhiteNavbar>
         {children}
         <Footer></Footer>
       </body>

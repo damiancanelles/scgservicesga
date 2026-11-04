@@ -1,4 +1,7 @@
+export const dynamic = "force-static";
+
 export default function robots() {
+    const domain = process.env.NEXT_PUBLIC_BASE_URL || "https://scgservicesatlanta.com";
     return {
         rules: [
             {
@@ -7,6 +10,6 @@ export default function robots() {
             disallow: []
             }
         ],
-        sitemap: `${process.env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`
+        sitemap: `${domain}/sitemap.xml`
     }
 }

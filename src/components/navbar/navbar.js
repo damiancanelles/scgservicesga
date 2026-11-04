@@ -3,25 +3,10 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Logo from "../../../public/large_logo.svg";
 
-export default function Navbar() {
-  const [categories, setCategories] = useState([]);
+export default function Navbar({ categories = [] }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const dropdownRef = useRef(null);
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(apiUrl + "/api/categories?populate=*");
-        const data = await response.json();
-        setCategories(data.data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    }
-    fetchData();
-  }, []);
 
   // Close dropdown when clicking outside
   useEffect(() => {

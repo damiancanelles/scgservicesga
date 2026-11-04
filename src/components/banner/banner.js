@@ -1,28 +1,10 @@
 import Image from "next/image";
 import BannerBackground from "../../../public/banner_background.png";
+import { getHome } from "@/lib/content";
 
-export default async function Banner() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  let phoneNumber = null;
-  let error = null;
-
-  try {
-    const response = await fetch(`${apiUrl}/api/home?populate=*`, {
-      cache: "no-store", // Prevents caching, always fetches fresh data
-    });
-
-    if (!response.ok) throw new Error("Failed to fetch contact information");
-
-    const fetchedData = await response.json();
-    phoneNumber = fetchedData?.data?.contact?.phone_number || null;
-
-    if (!phoneNumber) {
-      throw new Error("Phone number not found in API response");
-    }
-  } catch (err) {
-    error = err.message;
-  }
+export default function Banner() {
+  const phoneNumber = getHome().contact?.phone_number || null;
+  const error = phoneNumber ? null : "Phone number not found";
 
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center bg-black text-white">

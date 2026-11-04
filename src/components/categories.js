@@ -1,10 +1,9 @@
 import CategoryCard from "./categoryCard";
+import { getCategories } from "@/lib/content";
 
-export default async function ServicesSection() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const categoriesResponse = await fetch(apiUrl + "/api/categories?populate=*");
-  const categories = await categoriesResponse.json()
-  
+export default function ServicesSection() {
+  const categories = getCategories();
+
   return (
     <div className="bg-gray-200 text-black py-12">
       <div className="container mx-auto px-4">
@@ -16,7 +15,7 @@ export default async function ServicesSection() {
 
         {/* Services Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {categories.data.map((element) => 
+          {categories.map((element) => 
             (<CategoryCard key={element.id} element={element}></CategoryCard>)
           )
           }

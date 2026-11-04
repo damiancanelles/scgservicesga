@@ -3,20 +3,19 @@ import ContactBar from "@/components/banner/contact_bar";
 import ServicesSection from "@/components/categories";
 import ConstructionBanner from "@/components/header";
 import ReviewsSection from "@/components/reviews";
+import { getHome, getReviews } from "@/lib/content";
 
-export default async function Home() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const responseData = await fetch(apiUrl+"/api/home?populate%5Bpartners%5D%5Bpopulate%5D=logo");
-  const data = await responseData.json();
+export default function Home() {
+  const data = getHome();
 
   return (
     <div>
       <h1>
         <Banner></Banner>
         <ContactBar></ContactBar>
-        <ConstructionBanner introduction={data.data.introduction}/>
+        <ConstructionBanner introduction={data.introduction}/>
         <ServicesSection />
-        <ReviewsSection></ReviewsSection>
+        <ReviewsSection reviews={getReviews()}></ReviewsSection>
       </h1>
     </div>
   );

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!-- Static copy of the footer contact form so Netlify detects it at deploy time.
+     Keep field names in sync with src/components/footerContactForm.js. -->
+<html>
+  <body>
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>

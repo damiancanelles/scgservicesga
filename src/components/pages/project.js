@@ -1,12 +1,11 @@
 import RichTextRenderer from "../strapiDescription";
 import ImageGrid from "../imagesGrid";
+import { getProject } from "@/lib/content";
 
-export default async function ProjectDetailComponent({ id }) {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const responseProject = await fetch(`${apiUrl}/api/projects/${id}?populate=*`);
-  const project = await responseProject.json();
+export default function ProjectDetailComponent({ id }) {
+  const project = { data: getProject(id) };
 
-  if (!project) {
+  if (!project.data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p>Loading...</p>

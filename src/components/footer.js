@@ -1,9 +1,8 @@
 import ContactFormFooter from "./footerContactForm";
+import { getHome } from "@/lib/content";
 
-export default async function Footer() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const responseData = await fetch(apiUrl + "/api/home?populate=*");
-  const data = await responseData.json();
+export default function Footer() {
+  const data = { data: getHome() };
 
   if (!data.data || !data.data.contact) {
     return (

@@ -1,14 +1,10 @@
-import Link from "next/link";
 import SearchProjects from "@/components/seachProjects";
+import { getProjects } from "@/lib/content";
 
-export default async function ProjectsPage() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const response = await fetch(`${apiUrl}/api/projects?populate=*`, {
-    cache: "no-store",
-  });
-  const projects = await response.json();
+export default function ProjectsPage() {
+  const projects = getProjects();
 
-  if (!projects || !projects.data.length) {
+  if (!projects.length) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p>No projects available.</p>
@@ -26,7 +22,7 @@ export default async function ProjectsPage() {
         </h1>
 
         {/* Search Bar */}
-        <SearchProjects projects={projects.data} />
+        <SearchProjects projects={projects} />
 
       </div>
     </div>

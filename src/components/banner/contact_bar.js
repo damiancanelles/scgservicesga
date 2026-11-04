@@ -1,27 +1,9 @@
 import { Mail, Phone } from "lucide-react"; // Importing Lucide icons
+import { getHome } from "@/lib/content";
 
-export default async function ContactBar() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  
-  let contact = null;
-  let error = null;
-
-  try {
-    const response = await fetch(`${apiUrl}/api/home?populate=*`, {
-      cache: "no-store", // Ensures fresh data is fetched every request
-    });
-
-    if (!response.ok) throw new Error("Failed to fetch contact information");
-
-    const fetchedData = await response.json();
-    contact = fetchedData?.data?.contact || null;
-
-    if (!contact) {
-      throw new Error("Contact information not found in API response");
-    }
-  } catch (err) {
-    error = err.message;
-  }
+export default function ContactBar() {
+  const contact = getHome().contact || null;
+  const error = contact ? null : "Contact information not found";
 
   return (
     <div className="w-full bg-black py-4 text-white text-center border-t border-gray-700 px-4 lg:px-16">
