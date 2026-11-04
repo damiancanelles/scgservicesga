@@ -1,20 +1,18 @@
 import RichTextRenderer from "../strapiDescription";
 import Image from "next/image";
 import ServiceCard from "../serviceCard";
+import { getCategory } from "@/lib/content";
 
-export default async function CategoryPageComponent({id}) {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const categoryResponse = await fetch(`${apiUrl}/api/categories/${id}?populate[services][populate]=images`);
-  const category = await categoryResponse.json();
-  const category2Response = await fetch(`${apiUrl}/api/categories/${id}?populate=*`);
-  const category2 = await category2Response.json();
+export default function CategoryPageComponent({id}) {
+  const category = { data: getCategory(id) };
+  const category2 = category;
 
   const optimizeCloudinaryImage = (url, width = 600) => {
     if (!url.includes("res.cloudinary.com")) return url;
     return url.replace("/upload/", `/upload/f_auto,q_auto,c_scale,w_${width}/`);
   };
 
-  if (!category || !category2) {
+  if (!category.data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p>Loading...</p>

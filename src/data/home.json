@@ -1,0 +1,31 @@
+{
+  "id": 2,
+  "documentId": "a4cesjcg4uh1i6tc85u0gjsy",
+  "header": null,
+  "subHeader": null,
+  "introduction": "At SCG Services, we specialize in providing top-tier home and business maintenance solutions. As a family-owned business, we take pride in offering professional, reliable, and affordable services, including repairs, painting, AC services, plumbing, pressure washing, and junk removal. Whether you need a quick fix, a fresh coat of paint, or a deep clean, our experienced team is ready to deliver exceptional results.\n\nWe believe in quality craftsmanship, customer satisfaction, and treating every project with the utmost care. No job is too big or too small—SCG Services is here to keep your home and business in top shape.\n\nContact us today for a free estimate and experience the SCG difference!",
+  "createdAt": "2025-02-16T18:10:17.831Z",
+  "updatedAt": "2025-02-16T18:10:19.162Z",
+  "publishedAt": "2025-02-16T18:10:19.253Z",
+  "logo": null,
+  "contact": {
+    "id": 2,
+    "address_first_line": "131 Hillcrest Dr SW",
+    "address_second_line": null,
+    "city": "Austell, GA, USA",
+    "state": "GA",
+    "zip_code": 30168,
+    "email": "scgservicesga@gmail.com",
+    "phone_number": "7708915259"
+  },
+  "partners": [],
+  "social_media": null,
+  "categories": [],
+  "reviews": [],
+  "projects": [],
+  "seo": {
+    "id": 7,
+    "seoTitle": "SCG Services | Home Repairs, Painting, Plumbing & More",
+    "seoDescription": "SCG Services is your trusted family-owned business for home repairs, painting, AC services, plumbing, pressure washing, and junk removal. Reliable and professional service you can count on—contact us today!"
+  }
+}

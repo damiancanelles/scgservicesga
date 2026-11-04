@@ -2,23 +2,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function ReviewsSection() {
-  const [reviews, setReviews] = useState([]);
+export default function ReviewsSection({ reviews = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch(`${apiUrl}/api/reviews?populate=*`);
-        const data = await response.json();
-        setReviews(data.data || []); // Ensure it's always an array
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    }
-    fetchData();
-  }, []);
 
   // Auto change reviews every 30 seconds
   useEffect(() => {

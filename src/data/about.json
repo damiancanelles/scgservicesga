@@ -1,0 +1,131 @@
+{
+  "id": 5,
+  "documentId": "x9502n2crb5b7sa5km2ffjgv",
+  "header": "SCG Services",
+  "description": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "text": "At SCG Services, we are a family-owned business committed to providing top-quality home improvement solutions. With expertise in repairs, painting, AC services, plumbing, pressure washing, and junk removal, we take pride in delivering reliable, professional, and affordable services. Our team is dedicated to ensuring your home and business spaces are well-maintained, safe, and looking their best. Experience the SCG difference—where quality meets trust.",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-02-16T17:58:48.742Z",
+  "updatedAt": "2025-02-16T20:16:12.047Z",
+  "publishedAt": "2025-02-16T20:16:12.108Z",
+  "images": [
+    {
+      "id": 17,
+      "documentId": "dqeo9uuisk0942gax442qix3",
+      "name": "GC (20).png",
+      "alternativeText": null,
+      "caption": null,
+      "width": 1920,
+      "height": 1268,
+      "formats": {
+        "large": {
+          "ext": ".png",
+          "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/large_GC_20_929643c6dd.png",
+          "hash": "large_GC_20_929643c6dd",
+          "mime": "image/png",
+          "name": "large_GC (20).png",
+          "path": null,
+          "size": 1179.48,
+          "width": 1000,
+          "height": 660,
+          "sizeInBytes": 1179478,
+          "provider_metadata": {
+            "public_id": "large_GC_20_929643c6dd",
+            "resource_type": "image"
+          }
+        },
+        "small": {
+          "ext": ".png",
+          "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/small_GC_20_929643c6dd.png",
+          "hash": "small_GC_20_929643c6dd",
+          "mime": "image/png",
+          "name": "small_GC (20).png",
+          "path": null,
+          "size": 326.56,
+          "width": 500,
+          "height": 330,
+          "sizeInBytes": 326558,
+          "provider_metadata": {
+            "public_id": "small_GC_20_929643c6dd",
+            "resource_type": "image"
+          }
+        },
+        "medium": {
+          "ext": ".png",
+          "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/medium_GC_20_929643c6dd.png",
+          "hash": "medium_GC_20_929643c6dd",
+          "mime": "image/png",
+          "name": "medium_GC (20).png",
+          "path": null,
+          "size": 689.19,
+          "width": 750,
+          "height": 495,
+          "sizeInBytes": 689185,
+          "provider_metadata": {
+            "public_id": "medium_GC_20_929643c6dd",
+            "resource_type": "image"
+          }
+        },
+        "thumbnail": {
+          "ext": ".png",
+          "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/thumbnail_GC_20_929643c6dd.png",
+          "hash": "thumbnail_GC_20_929643c6dd",
+          "mime": "image/png",
+          "name": "thumbnail_GC (20).png",
+          "path": null,
+          "size": 82.46,
+          "width": 236,
+          "height": 156,
+          "sizeInBytes": 82462,
+          "provider_metadata": {
+            "public_id": "thumbnail_GC_20_929643c6dd",
+            "resource_type": "image"
+          }
+        }
+      },
+      "hash": "GC_20_929643c6dd",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 913.68,
+      "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739736725/GC_20_929643c6dd.png",
+      "previewUrl": null,
+      "provider": "cloudinary",
+      "provider_metadata": {
+        "public_id": "GC_20_929643c6dd",
+        "resource_type": "image"
+      },
+      "createdAt": "2025-02-16T20:12:06.178Z",
+      "updatedAt": "2025-02-16T20:12:06.178Z",
+      "publishedAt": "2025-02-16T20:12:06.179Z"
+    }
+  ],
+  "members": [
+    {
+      "id": 8,
+      "name": "Damian Canelles Gomez",
+      "position": "Owner & CEO",
+      "email": "dcanellesgomez@gmail.com",
+      "phone": "4706097162"
+    },
+    {
+      "id": 9,
+      "name": "Franklyn Segura Rama",
+      "position": "CEO & Owner",
+      "email": "frankalejandro1984@gmail.com",
+      "phone": "4045074044"
+    }
+  ],
+  "seo": {
+    "id": 34,
+    "seoTitle": "SCG Services | Home Repairs, Painting, AC, Plumbing & More",
+    "seoDescription": "SCG Services is your go-to family-owned business for repairs, painting, AC services, plumbing, pressure washing, and junk removal. Get expert home improvement services with quality and care. Contact us today!"
+  }
+}

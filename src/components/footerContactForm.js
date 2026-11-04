@@ -47,16 +47,16 @@ export default function ContactFormFooter() {
     setStatus("loading");
 
     try {
-      const response = await fetch("/api/sendEmail", {
+      // Submitted to Netlify Forms (see /__forms.html and the Netlify dashboard → Forms).
+      const response = await fetch("/__forms.html", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          to: formData.email,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          "form-name": "contact",
           name: formData.name,
+          email: formData.email,
           message: formData.message,
-        }),
+        }).toString(),
       });
 
       if (response.ok) {
@@ -73,7 +73,7 @@ export default function ContactFormFooter() {
 
   return (
     <div className="bg-gray-900 p-6 rounded-lg shadow-md">
-      <form className="space-y-4" onSubmit={handleSubmit}>
+      <form name="contact" className="space-y-4" onSubmit={handleSubmit}>
         <div>
           <label className="block text-gray-400 mb-2" htmlFor="name">
             Name

@@ -1,21 +1,16 @@
 import Image from "next/image";
 import RichTextRenderer from "../strapiDescription";
+import { getAbout } from "@/lib/content";
 
-export default async function AboutPageComponent() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  const dataResponse = await fetch(`${apiUrl}/api/about?populate=*`);
-  const data = await dataResponse.json();  // Convert to JSON
-
-  const membersResponse = await fetch(`${apiUrl}/api/about?populate[members][populate]=image`);
-  const members = await membersResponse.json();  // Convert to JSON
+export default function AboutPageComponent() {
+  const data = { data: getAbout() };
 
   const optimizeCloudinaryImage = (url, width = 800) => {
     if (!url.includes("res.cloudinary.com")) return url; 
     return url.replace("/upload/", `/upload/f_auto,q_auto,c_scale,w_${width}/`);
   };
 
-  if (!data || !members) {
+  if (!data.data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p>Loading...</p>

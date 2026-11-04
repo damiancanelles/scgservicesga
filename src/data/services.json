@@ -1,0 +1,2789 @@
+[
+  {
+    "id": 2,
+    "documentId": "cswxa2wdaei7as7kviq3dj09",
+    "title": "Interior Painting",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Give your home or business a fresh new look with SCG Services' professional interior painting. Our skilled painters use high-quality paints and precision techniques to create smooth, flawless finishes for walls, ceilings, trim, and more. Whether you're updating a single room or the entire property, we ensure long-lasting, vibrant results that enhance your space.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contact us today for expert interior painting services and a free estimate!",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-16T19:09:10.125Z",
+    "updatedAt": "2025-02-16T19:09:10.890Z",
+    "publishedAt": "2025-02-16T19:09:10.914Z",
+    "images": [
+      {
+        "id": 12,
+        "documentId": "kjq1c3ikyvoduyh5d3ybxdxx",
+        "name": "GC (15).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739732945/large_GC_15_cefe5ba518.png",
+            "hash": "large_GC_15_cefe5ba518",
+            "mime": "image/png",
+            "name": "large_GC (15).png",
+            "path": null,
+            "size": 997.43,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 997428,
+            "provider_metadata": {
+              "public_id": "large_GC_15_cefe5ba518",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739732945/small_GC_15_cefe5ba518.png",
+            "hash": "small_GC_15_cefe5ba518",
+            "mime": "image/png",
+            "name": "small_GC (15).png",
+            "path": null,
+            "size": 270.44,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 270441,
+            "provider_metadata": {
+              "public_id": "small_GC_15_cefe5ba518",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739732945/medium_GC_15_cefe5ba518.png",
+            "hash": "medium_GC_15_cefe5ba518",
+            "mime": "image/png",
+            "name": "medium_GC (15).png",
+            "path": null,
+            "size": 578.11,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 578109,
+            "provider_metadata": {
+              "public_id": "medium_GC_15_cefe5ba518",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739732945/thumbnail_GC_15_cefe5ba518.png",
+            "hash": "thumbnail_GC_15_cefe5ba518",
+            "mime": "image/png",
+            "name": "thumbnail_GC (15).png",
+            "path": null,
+            "size": 71.28,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 71277,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_15_cefe5ba518",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_15_cefe5ba518",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 841.67,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739732945/GC_15_cefe5ba518.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_15_cefe5ba518",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-16T19:09:06.263Z",
+        "updatedAt": "2025-02-16T19:09:06.263Z",
+        "publishedAt": "2025-02-16T19:09:06.263Z"
+      }
+    ],
+    "seo": {
+      "id": 24,
+      "seoTitle": "Interior Painting Services | Professional & Affordable – SCG Services",
+      "seoDescription": "SCG Services offers high-quality interior painting for homes and businesses. Flawless finishes, premium paints, and expert craftsmanship—contact us today!"
+    }
+  },
+  {
+    "id": 4,
+    "documentId": "tof50l94h4j4uqhnm2asoqzt",
+    "title": "Exterior Painting",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Enhance and protect your property with SCG Services' expert exterior painting. We use weather-resistant paints and durable coatings to withstand the elements and keep your home or business looking fresh for years. Whether it’s siding, stucco, brick, or trim, we deliver high-quality, long-lasting results with a professional touch.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Call us today for expert exterior painting and a free estimate!",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-16T19:11:43.953Z",
+    "updatedAt": "2025-02-16T19:11:44.854Z",
+    "publishedAt": "2025-02-16T19:11:44.889Z",
+    "images": [
+      {
+        "id": 13,
+        "documentId": "c7zjexk515pvgfufwtee4mca",
+        "name": "GC (16).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733098/large_GC_16_0ac020a73d.png",
+            "hash": "large_GC_16_0ac020a73d",
+            "mime": "image/png",
+            "name": "large_GC (16).png",
+            "path": null,
+            "size": 1219.85,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1219845,
+            "provider_metadata": {
+              "public_id": "large_GC_16_0ac020a73d",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733098/small_GC_16_0ac020a73d.png",
+            "hash": "small_GC_16_0ac020a73d",
+            "mime": "image/png",
+            "name": "small_GC (16).png",
+            "path": null,
+            "size": 316.16,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 316162,
+            "provider_metadata": {
+              "public_id": "small_GC_16_0ac020a73d",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733098/medium_GC_16_0ac020a73d.png",
+            "hash": "medium_GC_16_0ac020a73d",
+            "mime": "image/png",
+            "name": "medium_GC (16).png",
+            "path": null,
+            "size": 696.5,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 696502,
+            "provider_metadata": {
+              "public_id": "medium_GC_16_0ac020a73d",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733098/thumbnail_GC_16_0ac020a73d.png",
+            "hash": "thumbnail_GC_16_0ac020a73d",
+            "mime": "image/png",
+            "name": "thumbnail_GC (16).png",
+            "path": null,
+            "size": 75.82,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 75824,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_16_0ac020a73d",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_16_0ac020a73d",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1272.23,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733098/GC_16_0ac020a73d.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_16_0ac020a73d",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-16T19:11:39.673Z",
+        "updatedAt": "2025-02-16T19:11:39.673Z",
+        "publishedAt": "2025-02-16T19:11:39.673Z"
+      }
+    ],
+    "seo": {
+      "id": 27,
+      "seoTitle": "Exterior Painting Services | Durable & Weatherproof – SCG Services",
+      "seoDescription": "SCG Services provides professional exterior painting with durable, weather-resistant finishes. Boost curb appeal and protect your property—contact us today!"
+    }
+  },
+  {
+    "id": 6,
+    "documentId": "kbppazu1m5ja1qzpuhtllsbr",
+    "title": "Fence Painting",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Give your fence a fresh, polished look with SCG Services' professional fence painting. Our team uses high-quality stains and paints to protect against weather damage, fading, and wear. Whether it's wood, metal, or vinyl, we ensure a smooth, even finish that enhances both beauty and durability.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Get in touch today for expert fence painting services and a free estimate!",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-16T19:13:34.150Z",
+    "updatedAt": "2025-02-16T19:13:35.083Z",
+    "publishedAt": "2025-02-16T19:13:35.111Z",
+    "images": [
+      {
+        "id": 14,
+        "documentId": "flakc639jcykcmvbrps8d9x8",
+        "name": "GC (17).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733210/large_GC_17_dbef47f68b.png",
+            "hash": "large_GC_17_dbef47f68b",
+            "mime": "image/png",
+            "name": "large_GC (17).png",
+            "path": null,
+            "size": 1462.7,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1462704,
+            "provider_metadata": {
+              "public_id": "large_GC_17_dbef47f68b",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733210/small_GC_17_dbef47f68b.png",
+            "hash": "small_GC_17_dbef47f68b",
+            "mime": "image/png",
+            "name": "small_GC (17).png",
+            "path": null,
+            "size": 386.76,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 386757,
+            "provider_metadata": {
+              "public_id": "small_GC_17_dbef47f68b",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733210/medium_GC_17_dbef47f68b.png",
+            "hash": "medium_GC_17_dbef47f68b",
+            "mime": "image/png",
+            "name": "medium_GC (17).png",
+            "path": null,
+            "size": 840.98,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 840983,
+            "provider_metadata": {
+              "public_id": "medium_GC_17_dbef47f68b",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733209/thumbnail_GC_17_dbef47f68b.png",
+            "hash": "thumbnail_GC_17_dbef47f68b",
+            "mime": "image/png",
+            "name": "thumbnail_GC (17).png",
+            "path": null,
+            "size": 95.04,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 95036,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_17_dbef47f68b",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_17_dbef47f68b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1276.86,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739733209/GC_17_dbef47f68b.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_17_dbef47f68b",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-16T19:13:30.857Z",
+        "updatedAt": "2025-02-16T19:13:30.857Z",
+        "publishedAt": "2025-02-16T19:13:30.858Z"
+      }
+    ],
+    "seo": {
+      "id": 29,
+      "seoTitle": "Fence Painting Services | Protect & Enhance Your Fence – SCG Services",
+      "seoDescription": "SCG Services offers expert fence painting and staining to enhance durability and curb appeal. Quality finishes for wood, metal, and vinyl—contact us today!"
+    }
+  },
+  {
+    "id": 8,
+    "documentId": "eigc1zqzi4vduku7ceplruk8",
+    "title": "AC Repair",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Is your air conditioner not cooling properly? SCG Services offers fast and reliable AC repair to fix issues like poor airflow, refrigerant leaks, and malfunctioning thermostats, ensuring your system runs efficiently.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:03:19.550Z",
+    "updatedAt": "2025-02-17T00:03:21.250Z",
+    "publishedAt": "2025-02-17T00:03:21.280Z",
+    "images": [
+      {
+        "id": 18,
+        "documentId": "rnq15ycnuo7pgqbgumybtneo",
+        "name": "GC (21).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750592/large_GC_21_b4e9d21133.png",
+            "hash": "large_GC_21_b4e9d21133",
+            "mime": "image/png",
+            "name": "large_GC (21).png",
+            "path": null,
+            "size": 828.2,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 828201,
+            "provider_metadata": {
+              "public_id": "large_GC_21_b4e9d21133",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750592/small_GC_21_b4e9d21133.png",
+            "hash": "small_GC_21_b4e9d21133",
+            "mime": "image/png",
+            "name": "small_GC (21).png",
+            "path": null,
+            "size": 220.79,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 220790,
+            "provider_metadata": {
+              "public_id": "small_GC_21_b4e9d21133",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750592/medium_GC_21_b4e9d21133.png",
+            "hash": "medium_GC_21_b4e9d21133",
+            "mime": "image/png",
+            "name": "medium_GC (21).png",
+            "path": null,
+            "size": 476.03,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 476031,
+            "provider_metadata": {
+              "public_id": "medium_GC_21_b4e9d21133",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750592/thumbnail_GC_21_b4e9d21133.png",
+            "hash": "thumbnail_GC_21_b4e9d21133",
+            "mime": "image/png",
+            "name": "thumbnail_GC (21).png",
+            "path": null,
+            "size": 59.95,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 59952,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_21_b4e9d21133",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_21_b4e9d21133",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 727.89,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750592/GC_21_b4e9d21133.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_21_b4e9d21133",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:03:13.628Z",
+        "updatedAt": "2025-02-17T00:03:13.628Z",
+        "publishedAt": "2025-02-17T00:03:13.628Z"
+      }
+    ],
+    "seo": {
+      "id": 36,
+      "seoTitle": "AC Repair Services | Fast & Reliable Cooling Solutions – SCG Services",
+      "seoDescription": "SCG Services provides expert AC repair for homes and businesses, fixing cooling issues quickly and efficiently. Get your AC running smoothly—contact us today!"
+    }
+  },
+  {
+    "id": 10,
+    "documentId": "e5epcbyhdsk1mrxu6nn5yvu7",
+    "title": "AC Installation & Replacement",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Upgrade your cooling system with SCG Services' expert AC installation and replacement. We help you choose the right unit for your space, ensuring energy efficiency and long-lasting performance.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:05:32.564Z",
+    "updatedAt": "2025-02-17T00:05:41.415Z",
+    "publishedAt": "2025-02-17T00:05:41.441Z",
+    "images": [
+      {
+        "id": 19,
+        "documentId": "lydbqyk7qbtg48sd6muwwsgd",
+        "name": "GC (22).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750725/large_GC_22_2cec304735.png",
+            "hash": "large_GC_22_2cec304735",
+            "mime": "image/png",
+            "name": "large_GC (22).png",
+            "path": null,
+            "size": 1613.67,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1613668,
+            "provider_metadata": {
+              "public_id": "large_GC_22_2cec304735",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750725/small_GC_22_2cec304735.png",
+            "hash": "small_GC_22_2cec304735",
+            "mime": "image/png",
+            "name": "small_GC (22).png",
+            "path": null,
+            "size": 426.58,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 426583,
+            "provider_metadata": {
+              "public_id": "small_GC_22_2cec304735",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750725/medium_GC_22_2cec304735.png",
+            "hash": "medium_GC_22_2cec304735",
+            "mime": "image/png",
+            "name": "medium_GC (22).png",
+            "path": null,
+            "size": 921.25,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 921249,
+            "provider_metadata": {
+              "public_id": "medium_GC_22_2cec304735",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750725/thumbnail_GC_22_2cec304735.png",
+            "hash": "thumbnail_GC_22_2cec304735",
+            "mime": "image/png",
+            "name": "thumbnail_GC (22).png",
+            "path": null,
+            "size": 102.88,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 102878,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_22_2cec304735",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_22_2cec304735",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1032.09,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750725/GC_22_2cec304735.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_22_2cec304735",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:05:26.388Z",
+        "updatedAt": "2025-02-17T00:05:26.388Z",
+        "publishedAt": "2025-02-17T00:05:26.389Z"
+      }
+    ],
+    "seo": {
+      "id": 38,
+      "seoTitle": "AC Installation & Replacement | Energy-Efficient Cooling – SCG Services",
+      "seoDescription": "SCG Services offers professional AC installation and replacement, ensuring energy-efficient and high-performance cooling solutions. Call us today for expert service!"
+    }
+  },
+  {
+    "id": 12,
+    "documentId": "ijv23fdwnpaq91ybxd8e9fv9",
+    "title": "Air Duct Cleaning",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Improve indoor air quality with professional air duct cleaning. SCG Services removes dust, allergens, and debris from your ducts, helping your AC work more efficiently while ensuring cleaner air in your home or business.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:08:51.928Z",
+    "updatedAt": "2025-02-17T00:08:53.541Z",
+    "publishedAt": "2025-02-17T00:08:53.570Z",
+    "images": [
+      {
+        "id": 20,
+        "documentId": "hxxyo98z8l5eq3z8doas6hbz",
+        "name": "GC (23).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750924/large_GC_23_8a66599900.png",
+            "hash": "large_GC_23_8a66599900",
+            "mime": "image/png",
+            "name": "large_GC (23).png",
+            "path": null,
+            "size": 1079.89,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1079889,
+            "provider_metadata": {
+              "public_id": "large_GC_23_8a66599900",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750924/small_GC_23_8a66599900.png",
+            "hash": "small_GC_23_8a66599900",
+            "mime": "image/png",
+            "name": "small_GC (23).png",
+            "path": null,
+            "size": 283.93,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 283930,
+            "provider_metadata": {
+              "public_id": "small_GC_23_8a66599900",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750924/medium_GC_23_8a66599900.png",
+            "hash": "medium_GC_23_8a66599900",
+            "mime": "image/png",
+            "name": "medium_GC (23).png",
+            "path": null,
+            "size": 617.97,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 617974,
+            "provider_metadata": {
+              "public_id": "medium_GC_23_8a66599900",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750924/thumbnail_GC_23_8a66599900.png",
+            "hash": "thumbnail_GC_23_8a66599900",
+            "mime": "image/png",
+            "name": "thumbnail_GC (23).png",
+            "path": null,
+            "size": 71.54,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 71537,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_23_8a66599900",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_23_8a66599900",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1041.17,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739750924/GC_23_8a66599900.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_23_8a66599900",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:08:45.808Z",
+        "updatedAt": "2025-02-17T00:08:45.808Z",
+        "publishedAt": "2025-02-17T00:08:45.808Z"
+      }
+    ],
+    "seo": {
+      "id": 40,
+      "seoTitle": "Air Duct Cleaning Services | Improve Air Quality – SCG Services",
+      "seoDescription": "SCG Services offers expert air duct cleaning to remove dust and allergens, improving AC efficiency and indoor air quality. Breathe cleaner—schedule your service today!"
+    }
+  },
+  {
+    "id": 14,
+    "documentId": "bx97evo1vzkbjbrux4h1lovi",
+    "title": "Residential Cleaning",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Keep your home spotless with SCG Services' professional residential cleaning. We offer thorough cleaning for kitchens, bathrooms, bedrooms, and living spaces, ensuring a fresh and healthy environment for you and your family.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:15:49.486Z",
+    "updatedAt": "2025-02-17T00:15:51.466Z",
+    "publishedAt": "2025-02-17T00:15:51.543Z",
+    "images": [
+      {
+        "id": 21,
+        "documentId": "nc54u70u3utuesd2ihchf62p",
+        "name": "GC (24).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751333/large_GC_24_09b4d8e6d7.png",
+            "hash": "large_GC_24_09b4d8e6d7",
+            "mime": "image/png",
+            "name": "large_GC (24).png",
+            "path": null,
+            "size": 1148.66,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1148663,
+            "provider_metadata": {
+              "public_id": "large_GC_24_09b4d8e6d7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751333/small_GC_24_09b4d8e6d7.png",
+            "hash": "small_GC_24_09b4d8e6d7",
+            "mime": "image/png",
+            "name": "small_GC (24).png",
+            "path": null,
+            "size": 320.33,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 320330,
+            "provider_metadata": {
+              "public_id": "small_GC_24_09b4d8e6d7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751333/medium_GC_24_09b4d8e6d7.png",
+            "hash": "medium_GC_24_09b4d8e6d7",
+            "mime": "image/png",
+            "name": "medium_GC (24).png",
+            "path": null,
+            "size": 674.45,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 674453,
+            "provider_metadata": {
+              "public_id": "medium_GC_24_09b4d8e6d7",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751333/thumbnail_GC_24_09b4d8e6d7.png",
+            "hash": "thumbnail_GC_24_09b4d8e6d7",
+            "mime": "image/png",
+            "name": "thumbnail_GC (24).png",
+            "path": null,
+            "size": 82.14,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 82135,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_24_09b4d8e6d7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_24_09b4d8e6d7",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 953.86,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751333/GC_24_09b4d8e6d7.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_24_09b4d8e6d7",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:15:34.030Z",
+        "updatedAt": "2025-02-17T00:15:34.030Z",
+        "publishedAt": "2025-02-17T00:15:34.030Z"
+      }
+    ],
+    "seo": {
+      "id": 43,
+      "seoTitle": "Residential Cleaning Services | Home Deep Cleaning – SCG Services",
+      "seoDescription": "SCG Services provides expert home cleaning, including deep cleaning for kitchens, bathrooms, and living spaces. Enjoy a spotless home—schedule your cleaning today!"
+    }
+  },
+  {
+    "id": 16,
+    "documentId": "tg5fnhdzg3z4lewka3kkvonq",
+    "title": "Commercial Cleaning",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Ensure a clean and professional workplace with SCG Services' commercial cleaning. We provide routine cleaning for offices, retail stores, and commercial buildings, creating a healthier and more productive environment.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:19:16.942Z",
+    "updatedAt": "2025-02-17T00:19:18.458Z",
+    "publishedAt": "2025-02-17T00:19:18.494Z",
+    "images": [
+      {
+        "id": 22,
+        "documentId": "ymr0y95w1bt75vbrlc6xjdro",
+        "name": "GC (25).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751551/large_GC_25_9ffd5b5254.png",
+            "hash": "large_GC_25_9ffd5b5254",
+            "mime": "image/png",
+            "name": "large_GC (25).png",
+            "path": null,
+            "size": 1089,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1088996,
+            "provider_metadata": {
+              "public_id": "large_GC_25_9ffd5b5254",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751551/small_GC_25_9ffd5b5254.png",
+            "hash": "small_GC_25_9ffd5b5254",
+            "mime": "image/png",
+            "name": "small_GC (25).png",
+            "path": null,
+            "size": 298.64,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 298643,
+            "provider_metadata": {
+              "public_id": "small_GC_25_9ffd5b5254",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751551/medium_GC_25_9ffd5b5254.png",
+            "hash": "medium_GC_25_9ffd5b5254",
+            "mime": "image/png",
+            "name": "medium_GC (25).png",
+            "path": null,
+            "size": 630.72,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 630715,
+            "provider_metadata": {
+              "public_id": "medium_GC_25_9ffd5b5254",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751551/thumbnail_GC_25_9ffd5b5254.png",
+            "hash": "thumbnail_GC_25_9ffd5b5254",
+            "mime": "image/png",
+            "name": "thumbnail_GC (25).png",
+            "path": null,
+            "size": 79.06,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 79061,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_25_9ffd5b5254",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_25_9ffd5b5254",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 720.14,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751551/GC_25_9ffd5b5254.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_25_9ffd5b5254",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:19:11.999Z",
+        "updatedAt": "2025-02-17T00:19:11.999Z",
+        "publishedAt": "2025-02-17T00:19:12.000Z"
+      }
+    ],
+    "seo": {
+      "id": 45,
+      "seoTitle": "Commercial Cleaning Services | Office & Business Cleaning – SCG Services",
+      "seoDescription": "SCG Services offers professional commercial cleaning for offices and businesses. Keep your workspace spotless and sanitary—contact us today for reliable service!"
+    }
+  },
+  {
+    "id": 18,
+    "documentId": "gz3i1b83dt7w3o3sfyawoerf",
+    "title": "Post-Construction Cleaning",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After a renovation or construction project, let SCG Services handle the cleanup. We remove dust, debris, and leftover materials, leaving your space spotless and move-in ready.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:22:05.208Z",
+    "updatedAt": "2025-02-17T00:22:06.569Z",
+    "publishedAt": "2025-02-17T00:22:06.594Z",
+    "images": [
+      {
+        "id": 23,
+        "documentId": "yf7r6p2l0r2covyqw2btw52h",
+        "name": "GC (26).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751718/large_GC_26_54b7d598b9.png",
+            "hash": "large_GC_26_54b7d598b9",
+            "mime": "image/png",
+            "name": "large_GC (26).png",
+            "path": null,
+            "size": 1107,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1107004,
+            "provider_metadata": {
+              "public_id": "large_GC_26_54b7d598b9",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751718/small_GC_26_54b7d598b9.png",
+            "hash": "small_GC_26_54b7d598b9",
+            "mime": "image/png",
+            "name": "small_GC (26).png",
+            "path": null,
+            "size": 305.34,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 305337,
+            "provider_metadata": {
+              "public_id": "small_GC_26_54b7d598b9",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751718/medium_GC_26_54b7d598b9.png",
+            "hash": "medium_GC_26_54b7d598b9",
+            "mime": "image/png",
+            "name": "medium_GC (26).png",
+            "path": null,
+            "size": 641.84,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 641842,
+            "provider_metadata": {
+              "public_id": "medium_GC_26_54b7d598b9",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751718/thumbnail_GC_26_54b7d598b9.png",
+            "hash": "thumbnail_GC_26_54b7d598b9",
+            "mime": "image/png",
+            "name": "thumbnail_GC (26).png",
+            "path": null,
+            "size": 81.71,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 81707,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_26_54b7d598b9",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_26_54b7d598b9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 850.67,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739751718/GC_26_54b7d598b9.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_26_54b7d598b9",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:21:59.327Z",
+        "updatedAt": "2025-02-17T00:21:59.327Z",
+        "publishedAt": "2025-02-17T00:21:59.328Z"
+      }
+    ],
+    "seo": {
+      "id": 47,
+      "seoTitle": "Post-Construction Cleaning | Dust & Debris Removal – SCG Services",
+      "seoDescription": "SCG Services offers post-construction cleaning, removing dust, debris, and construction mess. Get your space move-in ready—schedule your cleanup today!"
+    }
+  },
+  {
+    "id": 20,
+    "documentId": "gd2lrmg77z4pwi2q97byft6g",
+    "title": "Electrical Repairs",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Keep your home and business safe with SCG Services' expert electrical repair solutions. We fix faulty wiring, outlets, circuit breakers, and more to ensure your electrical system runs safely and efficiently.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:31:48.297Z",
+    "updatedAt": "2025-02-17T00:31:49.857Z",
+    "publishedAt": "2025-02-17T00:31:49.896Z",
+    "images": [
+      {
+        "id": 24,
+        "documentId": "qs7guxiordeqkiacdkcou9b1",
+        "name": "GC (28).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752302/large_GC_28_b3c3243ca1.png",
+            "hash": "large_GC_28_b3c3243ca1",
+            "mime": "image/png",
+            "name": "large_GC (28).png",
+            "path": null,
+            "size": 1491.6,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1491603,
+            "provider_metadata": {
+              "public_id": "large_GC_28_b3c3243ca1",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752302/small_GC_28_b3c3243ca1.png",
+            "hash": "small_GC_28_b3c3243ca1",
+            "mime": "image/png",
+            "name": "small_GC (28).png",
+            "path": null,
+            "size": 389.34,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 389338,
+            "provider_metadata": {
+              "public_id": "small_GC_28_b3c3243ca1",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752302/medium_GC_28_b3c3243ca1.png",
+            "hash": "medium_GC_28_b3c3243ca1",
+            "mime": "image/png",
+            "name": "medium_GC (28).png",
+            "path": null,
+            "size": 853.53,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 853532,
+            "provider_metadata": {
+              "public_id": "medium_GC_28_b3c3243ca1",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752302/thumbnail_GC_28_b3c3243ca1.png",
+            "hash": "thumbnail_GC_28_b3c3243ca1",
+            "mime": "image/png",
+            "name": "thumbnail_GC (28).png",
+            "path": null,
+            "size": 93.63,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 93632,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_28_b3c3243ca1",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_28_b3c3243ca1",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1263.46,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752302/GC_28_b3c3243ca1.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_28_b3c3243ca1",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:31:43.115Z",
+        "updatedAt": "2025-02-17T00:31:43.115Z",
+        "publishedAt": "2025-02-17T00:31:43.115Z"
+      }
+    ],
+    "seo": {
+      "id": 50,
+      "seoTitle": "Electrical Repair Services | Safe & Reliable Fixes – SCG Services",
+      "seoDescription": "SCG Services offers professional electrical repairs, fixing faulty wiring, outlets, and circuits to ensure safety and efficiency. Get expert service—contact us today!"
+    }
+  },
+  {
+    "id": 22,
+    "documentId": "xo5i22zz2sy06s66m1awe2s3",
+    "title": " Lighting Installation & Upgrades",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Enhance your space with SCG Services' professional lighting installation. From LED upgrades to smart lighting systems, we ensure a well-lit, energy-efficient, and stylish setup for homes and businesses.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:32:59.740Z",
+    "updatedAt": "2025-02-17T00:33:02.350Z",
+    "publishedAt": "2025-02-17T00:33:02.379Z",
+    "images": [
+      {
+        "id": 25,
+        "documentId": "uupfmu4rdxkzpkliwvvzdaxs",
+        "name": "GC (27).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752369/large_GC_27_70572e8ebc.png",
+            "hash": "large_GC_27_70572e8ebc",
+            "mime": "image/png",
+            "name": "large_GC (27).png",
+            "path": null,
+            "size": 837.54,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 837541,
+            "provider_metadata": {
+              "public_id": "large_GC_27_70572e8ebc",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752369/small_GC_27_70572e8ebc.png",
+            "hash": "small_GC_27_70572e8ebc",
+            "mime": "image/png",
+            "name": "small_GC (27).png",
+            "path": null,
+            "size": 223.73,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 223732,
+            "provider_metadata": {
+              "public_id": "small_GC_27_70572e8ebc",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752369/medium_GC_27_70572e8ebc.png",
+            "hash": "medium_GC_27_70572e8ebc",
+            "mime": "image/png",
+            "name": "medium_GC (27).png",
+            "path": null,
+            "size": 479.89,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 479885,
+            "provider_metadata": {
+              "public_id": "medium_GC_27_70572e8ebc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752369/thumbnail_GC_27_70572e8ebc.png",
+            "hash": "thumbnail_GC_27_70572e8ebc",
+            "mime": "image/png",
+            "name": "thumbnail_GC (27).png",
+            "path": null,
+            "size": 62.14,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 62140,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_27_70572e8ebc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_27_70572e8ebc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 649.52,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752369/GC_27_70572e8ebc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_27_70572e8ebc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:32:50.078Z",
+        "updatedAt": "2025-02-17T00:32:50.078Z",
+        "publishedAt": "2025-02-17T00:32:50.078Z"
+      }
+    ],
+    "seo": {
+      "id": 52,
+      "seoTitle": "Lighting Installation Services | Smart & LED Lighting – SCG Services",
+      "seoDescription": "SCG Services provides expert lighting installation and upgrades, including LED and smart lighting solutions. Brighten up your space—schedule a consultation today!"
+    }
+  },
+  {
+    "id": 24,
+    "documentId": "hub6rbwtj796y4xujyr2zi0t",
+    "title": "Outlet & Switch Installation",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Need new outlets or switches? SCG Services provides professional installation for standard, GFCI, and smart outlets, ensuring safe and convenient power access throughout your space.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:34:02.888Z",
+    "updatedAt": "2025-02-17T00:34:04.583Z",
+    "publishedAt": "2025-02-17T00:34:04.611Z",
+    "images": [
+      {
+        "id": 26,
+        "documentId": "fddev3p20mg2b33ipyw55hsq",
+        "name": "GC (29).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752438/large_GC_29_3a921dc13c.png",
+            "hash": "large_GC_29_3a921dc13c",
+            "mime": "image/png",
+            "name": "large_GC (29).png",
+            "path": null,
+            "size": 962.19,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 962189,
+            "provider_metadata": {
+              "public_id": "large_GC_29_3a921dc13c",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752438/small_GC_29_3a921dc13c.png",
+            "hash": "small_GC_29_3a921dc13c",
+            "mime": "image/png",
+            "name": "small_GC (29).png",
+            "path": null,
+            "size": 258.38,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 258382,
+            "provider_metadata": {
+              "public_id": "small_GC_29_3a921dc13c",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752438/medium_GC_29_3a921dc13c.png",
+            "hash": "medium_GC_29_3a921dc13c",
+            "mime": "image/png",
+            "name": "medium_GC (29).png",
+            "path": null,
+            "size": 554.85,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 554854,
+            "provider_metadata": {
+              "public_id": "medium_GC_29_3a921dc13c",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752438/thumbnail_GC_29_3a921dc13c.png",
+            "hash": "thumbnail_GC_29_3a921dc13c",
+            "mime": "image/png",
+            "name": "thumbnail_GC (29).png",
+            "path": null,
+            "size": 65.82,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 65822,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_29_3a921dc13c",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_29_3a921dc13c",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 844,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752437/GC_29_3a921dc13c.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_29_3a921dc13c",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:33:58.716Z",
+        "updatedAt": "2025-02-17T00:33:58.716Z",
+        "publishedAt": "2025-02-17T00:33:58.716Z"
+      }
+    ],
+    "seo": {
+      "id": 54,
+      "seoTitle": "Outlet & Switch Installation | Safe & Modern Solutions – SCG Services",
+      "seoDescription": "SCG Services offers outlet and switch installation, including GFCI and smart outlets for enhanced safety and convenience. Get expert installation today!"
+    }
+  },
+  {
+    "id": 26,
+    "documentId": "nh0ibcx8bzptx4taw22enng3",
+    "title": "Residential Junk Removal",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Clear out unwanted clutter from your home with SCG Services' residential junk removal. We haul away old furniture, appliances, electronics, and more, leaving your space clean and organized.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:43:10.502Z",
+    "updatedAt": "2025-02-17T00:43:12.640Z",
+    "publishedAt": "2025-02-17T00:43:12.679Z",
+    "images": [
+      {
+        "id": 27,
+        "documentId": "o00aauw7e6x9v2e1wqp6nybe",
+        "name": "GC (30).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752982/large_GC_30_4b6a057264.png",
+            "hash": "large_GC_30_4b6a057264",
+            "mime": "image/png",
+            "name": "large_GC (30).png",
+            "path": null,
+            "size": 1094.93,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1094930,
+            "provider_metadata": {
+              "public_id": "large_GC_30_4b6a057264",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752982/small_GC_30_4b6a057264.png",
+            "hash": "small_GC_30_4b6a057264",
+            "mime": "image/png",
+            "name": "small_GC (30).png",
+            "path": null,
+            "size": 302.05,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 302054,
+            "provider_metadata": {
+              "public_id": "small_GC_30_4b6a057264",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752982/medium_GC_30_4b6a057264.png",
+            "hash": "medium_GC_30_4b6a057264",
+            "mime": "image/png",
+            "name": "medium_GC (30).png",
+            "path": null,
+            "size": 638.66,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 638655,
+            "provider_metadata": {
+              "public_id": "medium_GC_30_4b6a057264",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752982/thumbnail_GC_30_4b6a057264.png",
+            "hash": "thumbnail_GC_30_4b6a057264",
+            "mime": "image/png",
+            "name": "thumbnail_GC (30).png",
+            "path": null,
+            "size": 78.76,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 78762,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_30_4b6a057264",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_30_4b6a057264",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 781.23,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739752982/GC_30_4b6a057264.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_30_4b6a057264",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:43:03.755Z",
+        "updatedAt": "2025-02-17T00:43:03.755Z",
+        "publishedAt": "2025-02-17T00:43:03.755Z"
+      }
+    ],
+    "seo": {
+      "id": 57,
+      "seoTitle": "Residential Junk Removal | Fast & Reliable Cleanup – SCG Services",
+      "seoDescription": "SCG Services provides home junk removal, including furniture, appliances, and clutter cleanup. Fast, reliable, and hassle-free service—book now!"
+    }
+  },
+  {
+    "id": 28,
+    "documentId": "m2winjq7np8mwpa3lkvsymq6",
+    "title": "Commercial Junk Removal",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Keep your business space clean and clutter-free with SCG Services' commercial junk removal. We handle office furniture, equipment, and general waste, ensuring a professional and tidy environment.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:44:39.890Z",
+    "updatedAt": "2025-02-17T00:44:41.980Z",
+    "publishedAt": "2025-02-17T00:44:42.005Z",
+    "images": [
+      {
+        "id": 28,
+        "documentId": "abh75d6srv7ydt1k7gqy2o3j",
+        "name": "GC (31).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753061/large_GC_31_f645915cf9.png",
+            "hash": "large_GC_31_f645915cf9",
+            "mime": "image/png",
+            "name": "large_GC (31).png",
+            "path": null,
+            "size": 1505.53,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1505533,
+            "provider_metadata": {
+              "public_id": "large_GC_31_f645915cf9",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753061/small_GC_31_f645915cf9.png",
+            "hash": "small_GC_31_f645915cf9",
+            "mime": "image/png",
+            "name": "small_GC (31).png",
+            "path": null,
+            "size": 392.41,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 392405,
+            "provider_metadata": {
+              "public_id": "small_GC_31_f645915cf9",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753061/medium_GC_31_f645915cf9.png",
+            "hash": "medium_GC_31_f645915cf9",
+            "mime": "image/png",
+            "name": "medium_GC (31).png",
+            "path": null,
+            "size": 863.8,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 863801,
+            "provider_metadata": {
+              "public_id": "medium_GC_31_f645915cf9",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753061/thumbnail_GC_31_f645915cf9.png",
+            "hash": "thumbnail_GC_31_f645915cf9",
+            "mime": "image/png",
+            "name": "thumbnail_GC (31).png",
+            "path": null,
+            "size": 92.09,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 92091,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_31_f645915cf9",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_31_f645915cf9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1133.3,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753061/GC_31_f645915cf9.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_31_f645915cf9",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:44:22.110Z",
+        "updatedAt": "2025-02-17T00:44:22.110Z",
+        "publishedAt": "2025-02-17T00:44:22.110Z"
+      }
+    ],
+    "seo": {
+      "id": 59,
+      "seoTitle": "Commercial Junk Removal | Office & Business Cleanup – SCG Services",
+      "seoDescription": "SCG Services offers commercial junk removal for offices and businesses, hauling away furniture, electronics, and waste. Get a clean workspace today!"
+    }
+  },
+  {
+    "id": 30,
+    "documentId": "hqfuxqpqe5chtgbyiapmzahy",
+    "title": "Construction Debris Removal",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Renovating or building? SCG Services provides construction debris removal, hauling away drywall, wood, concrete, and other materials to keep your site clean and safe.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:46:13.419Z",
+    "updatedAt": "2025-02-17T00:46:15.349Z",
+    "publishedAt": "2025-02-17T00:46:15.385Z",
+    "images": [
+      {
+        "id": 29,
+        "documentId": "bxyxdpgqo9jche0xhzn62b17",
+        "name": "GC (32).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753160/large_GC_32_7276630f00.png",
+            "hash": "large_GC_32_7276630f00",
+            "mime": "image/png",
+            "name": "large_GC (32).png",
+            "path": null,
+            "size": 1504.02,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1504019,
+            "provider_metadata": {
+              "public_id": "large_GC_32_7276630f00",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753160/small_GC_32_7276630f00.png",
+            "hash": "small_GC_32_7276630f00",
+            "mime": "image/png",
+            "name": "small_GC (32).png",
+            "path": null,
+            "size": 392.34,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 392338,
+            "provider_metadata": {
+              "public_id": "small_GC_32_7276630f00",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753160/medium_GC_32_7276630f00.png",
+            "hash": "medium_GC_32_7276630f00",
+            "mime": "image/png",
+            "name": "medium_GC (32).png",
+            "path": null,
+            "size": 857.07,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 857065,
+            "provider_metadata": {
+              "public_id": "medium_GC_32_7276630f00",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753160/thumbnail_GC_32_7276630f00.png",
+            "hash": "thumbnail_GC_32_7276630f00",
+            "mime": "image/png",
+            "name": "thumbnail_GC (32).png",
+            "path": null,
+            "size": 95.41,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 95409,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_32_7276630f00",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_32_7276630f00",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1509.3,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753160/GC_32_7276630f00.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_32_7276630f00",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:46:01.331Z",
+        "updatedAt": "2025-02-17T00:46:01.331Z",
+        "publishedAt": "2025-02-17T00:46:01.332Z"
+      }
+    ],
+    "seo": {
+      "id": 61,
+      "seoTitle": "Construction Debris Removal | Safe & Efficient Cleanup – SCG Services",
+      "seoDescription": "SCG Services specializes in construction debris removal, clearing away drywall, wood, and waste from job sites. Get fast and reliable cleanup today!"
+    }
+  },
+  {
+    "id": 32,
+    "documentId": "gwxmwatcbvepq8nkngbuzn1m",
+    "title": "Leak Detection & Repair",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Stop water damage before it starts with SCG Services' expert leak detection and repair. Our plumbers quickly locate and fix leaks in pipes, faucets, and water lines to prevent costly damage and high water bills.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:56:52.052Z",
+    "updatedAt": "2025-02-17T00:56:53.465Z",
+    "publishedAt": "2025-02-17T00:56:53.499Z",
+    "images": [
+      {
+        "id": 32,
+        "documentId": "prqriwte2x4mpdha6u0qgnbx",
+        "name": "GC (33).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/large_GC_33_41dfec26dc.png",
+            "hash": "large_GC_33_41dfec26dc",
+            "mime": "image/png",
+            "name": "large_GC (33).png",
+            "path": null,
+            "size": 1156.38,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1156378,
+            "provider_metadata": {
+              "public_id": "large_GC_33_41dfec26dc",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/small_GC_33_41dfec26dc.png",
+            "hash": "small_GC_33_41dfec26dc",
+            "mime": "image/png",
+            "name": "small_GC (33).png",
+            "path": null,
+            "size": 296.87,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 296867,
+            "provider_metadata": {
+              "public_id": "small_GC_33_41dfec26dc",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/medium_GC_33_41dfec26dc.png",
+            "hash": "medium_GC_33_41dfec26dc",
+            "mime": "image/png",
+            "name": "medium_GC (33).png",
+            "path": null,
+            "size": 651.98,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 651983,
+            "provider_metadata": {
+              "public_id": "medium_GC_33_41dfec26dc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753792/thumbnail_GC_33_41dfec26dc.png",
+            "hash": "thumbnail_GC_33_41dfec26dc",
+            "mime": "image/png",
+            "name": "thumbnail_GC (33).png",
+            "path": null,
+            "size": 74.11,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 74106,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_33_41dfec26dc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_33_41dfec26dc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1062.88,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/GC_33_41dfec26dc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_33_41dfec26dc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:56:33.799Z",
+        "updatedAt": "2025-02-17T00:56:33.799Z",
+        "publishedAt": "2025-02-17T00:56:33.799Z"
+      }
+    ],
+    "seo": {
+      "id": 64,
+      "seoTitle": "Leak Detection & Repair | Fast & Reliable Plumbing – SCG Services",
+      "seoDescription": "SCG Services offers leak detection and repair, fixing hidden leaks in pipes, faucets, and water lines. Prevent water damage—schedule a repair today!"
+    }
+  },
+  {
+    "id": 34,
+    "documentId": "v3xswfoipum0no5yfj1lo6p4",
+    "title": "Water Heater Repair & Installation",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Ensure you always have hot water with SCG Services' water heater repair and installation. We service traditional and tankless systems, ensuring energy-efficient and reliable hot water for your home or business.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:57:49.204Z",
+    "updatedAt": "2025-02-17T00:57:50.819Z",
+    "publishedAt": "2025-02-17T00:57:50.859Z",
+    "images": [
+      {
+        "id": 31,
+        "documentId": "vui1shux5kaswul7rkwxejxs",
+        "name": "GC (34).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/large_GC_34_c747fc8946.png",
+            "hash": "large_GC_34_c747fc8946",
+            "mime": "image/png",
+            "name": "large_GC (34).png",
+            "path": null,
+            "size": 1174.22,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1174223,
+            "provider_metadata": {
+              "public_id": "large_GC_34_c747fc8946",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753792/small_GC_34_c747fc8946.png",
+            "hash": "small_GC_34_c747fc8946",
+            "mime": "image/png",
+            "name": "small_GC (34).png",
+            "path": null,
+            "size": 298.42,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 298416,
+            "provider_metadata": {
+              "public_id": "small_GC_34_c747fc8946",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753793/medium_GC_34_c747fc8946.png",
+            "hash": "medium_GC_34_c747fc8946",
+            "mime": "image/png",
+            "name": "medium_GC (34).png",
+            "path": null,
+            "size": 669.98,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 669982,
+            "provider_metadata": {
+              "public_id": "medium_GC_34_c747fc8946",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753792/thumbnail_GC_34_c747fc8946.png",
+            "hash": "thumbnail_GC_34_c747fc8946",
+            "mime": "image/png",
+            "name": "thumbnail_GC (34).png",
+            "path": null,
+            "size": 71.42,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 71416,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_34_c747fc8946",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_34_c747fc8946",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 888.08,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753792/GC_34_c747fc8946.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_34_c747fc8946",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:56:33.673Z",
+        "updatedAt": "2025-02-17T00:56:33.673Z",
+        "publishedAt": "2025-02-17T00:56:33.673Z"
+      }
+    ],
+    "seo": {
+      "id": 66,
+      "seoTitle": "Water Heater Repair & Installation | Reliable Hot Water – SCG Services",
+      "seoDescription": "SCG Services offers water heater repair and installation, servicing traditional and tankless systems for reliable hot water. Book an expert plumber today!"
+    }
+  },
+  {
+    "id": 36,
+    "documentId": "kt9aivc7b0msrez1umsspt0j",
+    "title": "Toilet Repair & Installation",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "From fixing leaks and clogs to installing new toilets, SCG Services provides expert toilet repair and installation to keep your bathroom plumbing in top shape.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T00:58:45.788Z",
+    "updatedAt": "2025-02-17T00:58:47.185Z",
+    "publishedAt": "2025-02-17T00:58:47.224Z",
+    "images": [
+      {
+        "id": 30,
+        "documentId": "foqx4r3a77xb2l2gry4x6ypm",
+        "name": "GC (35).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753789/large_GC_35_23e5667412.png",
+            "hash": "large_GC_35_23e5667412",
+            "mime": "image/png",
+            "name": "large_GC (35).png",
+            "path": null,
+            "size": 1111.9,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1111895,
+            "provider_metadata": {
+              "public_id": "large_GC_35_23e5667412",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753789/small_GC_35_23e5667412.png",
+            "hash": "small_GC_35_23e5667412",
+            "mime": "image/png",
+            "name": "small_GC (35).png",
+            "path": null,
+            "size": 312.15,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 312149,
+            "provider_metadata": {
+              "public_id": "small_GC_35_23e5667412",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753789/medium_GC_35_23e5667412.png",
+            "hash": "medium_GC_35_23e5667412",
+            "mime": "image/png",
+            "name": "medium_GC (35).png",
+            "path": null,
+            "size": 655.96,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 655961,
+            "provider_metadata": {
+              "public_id": "medium_GC_35_23e5667412",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753789/thumbnail_GC_35_23e5667412.png",
+            "hash": "thumbnail_GC_35_23e5667412",
+            "mime": "image/png",
+            "name": "thumbnail_GC (35).png",
+            "path": null,
+            "size": 82.22,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 82221,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_35_23e5667412",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_35_23e5667412",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 795.45,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739753789/GC_35_23e5667412.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_35_23e5667412",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T00:56:30.170Z",
+        "updatedAt": "2025-02-17T00:56:30.170Z",
+        "publishedAt": "2025-02-17T00:56:30.170Z"
+      }
+    ],
+    "seo": {
+      "id": 68,
+      "seoTitle": "Toilet Repair & Installation | Fast Plumbing Service – SCG Services",
+      "seoDescription": "SCG Services offers toilet repair and installation, fixing leaks, clogs, and more. Get expert plumbing services—schedule your repair today!"
+    }
+  },
+  {
+    "id": 38,
+    "documentId": "yv4xapuxqrsokf79cc27s4vy",
+    "title": "Driveway & Sidewalk Pressure Washing",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Restore the look of your driveway and sidewalks with SCG Services' professional pressure washing. We remove dirt, oil stains, mold, and grime, making your concrete surfaces look fresh and clean.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:01:28.475Z",
+    "updatedAt": "2025-02-17T01:01:30.370Z",
+    "publishedAt": "2025-02-17T01:01:30.398Z",
+    "images": [
+      {
+        "id": 15,
+        "documentId": "jlpt0sr46j1p1buobdp46ria",
+        "name": "GC (18).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739734902/large_GC_18_932c7fef8b.png",
+            "hash": "large_GC_18_932c7fef8b",
+            "mime": "image/png",
+            "name": "large_GC (18).png",
+            "path": null,
+            "size": 1549.86,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1549860,
+            "provider_metadata": {
+              "public_id": "large_GC_18_932c7fef8b",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739734902/small_GC_18_932c7fef8b.png",
+            "hash": "small_GC_18_932c7fef8b",
+            "mime": "image/png",
+            "name": "small_GC (18).png",
+            "path": null,
+            "size": 406.52,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 406516,
+            "provider_metadata": {
+              "public_id": "small_GC_18_932c7fef8b",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739734902/medium_GC_18_932c7fef8b.png",
+            "hash": "medium_GC_18_932c7fef8b",
+            "mime": "image/png",
+            "name": "medium_GC (18).png",
+            "path": null,
+            "size": 887.64,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 887643,
+            "provider_metadata": {
+              "public_id": "medium_GC_18_932c7fef8b",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739734902/thumbnail_GC_18_932c7fef8b.png",
+            "hash": "thumbnail_GC_18_932c7fef8b",
+            "mime": "image/png",
+            "name": "thumbnail_GC (18).png",
+            "path": null,
+            "size": 96.62,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 96624,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_18_932c7fef8b",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_18_932c7fef8b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1232.34,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739734902/GC_18_932c7fef8b.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_18_932c7fef8b",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-16T19:41:43.463Z",
+        "updatedAt": "2025-02-17T01:01:20.038Z",
+        "publishedAt": "2025-02-16T19:41:43.463Z"
+      }
+    ],
+    "seo": {
+      "id": 71,
+      "seoTitle": "Driveway & Sidewalk Pressure Washing | Deep Clean – SCG Services",
+      "seoDescription": "SCG Services offers driveway and sidewalk pressure washing, removing stains, dirt, and grime for a fresh, clean look. Book your cleaning today!"
+    }
+  },
+  {
+    "id": 40,
+    "documentId": "u5z3ae53cljrhpaf8off1dmo",
+    "title": "House Exterior Pressure Washing",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Keep your home looking its best with SCG Services' house exterior pressure washing. We safely clean siding, stucco, and brick, removing mold, mildew, and dirt without damaging surfaces.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:05:11.998Z",
+    "updatedAt": "2025-02-17T01:05:13.371Z",
+    "publishedAt": "2025-02-17T01:05:13.398Z",
+    "images": [
+      {
+        "id": 33,
+        "documentId": "w0np4a8mtdwdhf27nj0pilpl",
+        "name": "GC (36).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754304/large_GC_36_e09050f766.png",
+            "hash": "large_GC_36_e09050f766",
+            "mime": "image/png",
+            "name": "large_GC (36).png",
+            "path": null,
+            "size": 1376.33,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1376334,
+            "provider_metadata": {
+              "public_id": "large_GC_36_e09050f766",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754304/small_GC_36_e09050f766.png",
+            "hash": "small_GC_36_e09050f766",
+            "mime": "image/png",
+            "name": "small_GC (36).png",
+            "path": null,
+            "size": 367.29,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 367286,
+            "provider_metadata": {
+              "public_id": "small_GC_36_e09050f766",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754305/medium_GC_36_e09050f766.png",
+            "hash": "medium_GC_36_e09050f766",
+            "mime": "image/png",
+            "name": "medium_GC (36).png",
+            "path": null,
+            "size": 791.65,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 791650,
+            "provider_metadata": {
+              "public_id": "medium_GC_36_e09050f766",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754304/thumbnail_GC_36_e09050f766.png",
+            "hash": "thumbnail_GC_36_e09050f766",
+            "mime": "image/png",
+            "name": "thumbnail_GC (36).png",
+            "path": null,
+            "size": 90.06,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 90057,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_36_e09050f766",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_36_e09050f766",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1070.86,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754304/GC_36_e09050f766.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_36_e09050f766",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T01:05:05.596Z",
+        "updatedAt": "2025-02-17T01:05:05.596Z",
+        "publishedAt": "2025-02-17T01:05:05.597Z"
+      }
+    ],
+    "seo": {
+      "id": 73,
+      "seoTitle": "House Exterior Pressure Washing | Restore Curb Appeal – SCG Services",
+      "seoDescription": "SCG Services provides house exterior pressure washing, cleaning siding, stucco, and brick for a refreshed look. Improve curb appeal—contact us today!"
+    }
+  },
+  {
+    "id": 42,
+    "documentId": "fdex9dymvs6mnmhnndjpx3u1",
+    "title": "Fence Pressure Washer",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Refresh and extend the life of your fence with SCG Services' fence pressure washing. We remove dirt, mildew, and grime from wood, vinyl, and metal fences, preparing them for painting or staining.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:06:54.632Z",
+    "updatedAt": "2025-02-17T01:06:56.097Z",
+    "publishedAt": "2025-02-17T01:06:56.123Z",
+    "images": [
+      {
+        "id": 34,
+        "documentId": "e1nn20rhargc5xcl9yu9tget",
+        "name": "GC (37).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754403/large_GC_37_55acbfdbf4.png",
+            "hash": "large_GC_37_55acbfdbf4",
+            "mime": "image/png",
+            "name": "large_GC (37).png",
+            "path": null,
+            "size": 1859.54,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1859538,
+            "provider_metadata": {
+              "public_id": "large_GC_37_55acbfdbf4",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754403/small_GC_37_55acbfdbf4.png",
+            "hash": "small_GC_37_55acbfdbf4",
+            "mime": "image/png",
+            "name": "small_GC (37).png",
+            "path": null,
+            "size": 465.34,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 465337,
+            "provider_metadata": {
+              "public_id": "small_GC_37_55acbfdbf4",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754403/medium_GC_37_55acbfdbf4.png",
+            "hash": "medium_GC_37_55acbfdbf4",
+            "mime": "image/png",
+            "name": "medium_GC (37).png",
+            "path": null,
+            "size": 1045.7,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 1045698,
+            "provider_metadata": {
+              "public_id": "medium_GC_37_55acbfdbf4",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754403/thumbnail_GC_37_55acbfdbf4.png",
+            "hash": "thumbnail_GC_37_55acbfdbf4",
+            "mime": "image/png",
+            "name": "thumbnail_GC (37).png",
+            "path": null,
+            "size": 104.92,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 104915,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_37_55acbfdbf4",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_37_55acbfdbf4",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 1770.37,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739754403/GC_37_55acbfdbf4.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_37_55acbfdbf4",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T01:06:45.005Z",
+        "updatedAt": "2025-02-17T01:06:45.005Z",
+        "publishedAt": "2025-02-17T01:06:45.006Z"
+      }
+    ],
+    "seo": {
+      "id": 75,
+      "seoTitle": "Fence Pressure Washing | Clean & Restore – SCG Services",
+      "seoDescription": "SCG Services provides fence pressure washing, cleaning wood, vinyl, and metal fences for a refreshed look. Get a spotless fence—book your service today!"
+    }
+  },
+  {
+    "id": 44,
+    "documentId": "ihhsgpdgfppfa7e3n4nyqjvq",
+    "title": "Drywall Repair",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Restore your walls with SCG Services' expert drywall repair. We fix holes, cracks, and water damage, ensuring a smooth, seamless finish that blends perfectly with your existing walls.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:29:27.845Z",
+    "updatedAt": "2025-02-17T01:29:29.597Z",
+    "publishedAt": "2025-02-17T01:29:29.630Z",
+    "images": [
+      {
+        "id": 35,
+        "documentId": "b2sth75hof8hyna98r5r9s6t",
+        "name": "GC (38).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755762/large_GC_38_0a44df1046.png",
+            "hash": "large_GC_38_0a44df1046",
+            "mime": "image/png",
+            "name": "large_GC (38).png",
+            "path": null,
+            "size": 1090.31,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1090306,
+            "provider_metadata": {
+              "public_id": "large_GC_38_0a44df1046",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755762/small_GC_38_0a44df1046.png",
+            "hash": "small_GC_38_0a44df1046",
+            "mime": "image/png",
+            "name": "small_GC (38).png",
+            "path": null,
+            "size": 296.87,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 296870,
+            "provider_metadata": {
+              "public_id": "small_GC_38_0a44df1046",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755762/medium_GC_38_0a44df1046.png",
+            "hash": "medium_GC_38_0a44df1046",
+            "mime": "image/png",
+            "name": "medium_GC (38).png",
+            "path": null,
+            "size": 631.19,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 631192,
+            "provider_metadata": {
+              "public_id": "medium_GC_38_0a44df1046",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755762/thumbnail_GC_38_0a44df1046.png",
+            "hash": "thumbnail_GC_38_0a44df1046",
+            "mime": "image/png",
+            "name": "thumbnail_GC (38).png",
+            "path": null,
+            "size": 77.08,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 77075,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_38_0a44df1046",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_38_0a44df1046",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 860.62,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755762/GC_38_0a44df1046.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_38_0a44df1046",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T01:29:23.107Z",
+        "updatedAt": "2025-02-17T01:29:23.107Z",
+        "publishedAt": "2025-02-17T01:29:23.107Z"
+      }
+    ],
+    "seo": {
+      "id": 78,
+      "seoTitle": "Drywall Repair Services | Fix Holes & Cracks – SCG Services",
+      "seoDescription": "SCG Services offers professional drywall repair, fixing holes, cracks, and water damage for a flawless finish. Get expert service today!"
+    }
+  },
+  {
+    "id": 46,
+    "documentId": "e6094icv9vzghwj3ddm8qono",
+    "title": "Door & Window Repair",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Improve your home's security and energy efficiency with SCG Services' door and window repair. We fix misaligned doors, broken locks, and drafty windows to keep your property safe and comfortable.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:30:35.427Z",
+    "updatedAt": "2025-02-17T01:30:39.964Z",
+    "publishedAt": "2025-02-17T01:30:39.997Z",
+    "images": [
+      {
+        "id": 36,
+        "documentId": "y62ye2canin0jgaga0dlscxn",
+        "name": "GC (39).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755829/large_GC_39_39398e60f2.png",
+            "hash": "large_GC_39_39398e60f2",
+            "mime": "image/png",
+            "name": "large_GC (39).png",
+            "path": null,
+            "size": 974.01,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 974012,
+            "provider_metadata": {
+              "public_id": "large_GC_39_39398e60f2",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755829/small_GC_39_39398e60f2.png",
+            "hash": "small_GC_39_39398e60f2",
+            "mime": "image/png",
+            "name": "small_GC (39).png",
+            "path": null,
+            "size": 244.38,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 244375,
+            "provider_metadata": {
+              "public_id": "small_GC_39_39398e60f2",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755829/medium_GC_39_39398e60f2.png",
+            "hash": "medium_GC_39_39398e60f2",
+            "mime": "image/png",
+            "name": "medium_GC (39).png",
+            "path": null,
+            "size": 546.55,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 546553,
+            "provider_metadata": {
+              "public_id": "medium_GC_39_39398e60f2",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755829/thumbnail_GC_39_39398e60f2.png",
+            "hash": "thumbnail_GC_39_39398e60f2",
+            "mime": "image/png",
+            "name": "thumbnail_GC (39).png",
+            "path": null,
+            "size": 58.08,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 58078,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_39_39398e60f2",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_39_39398e60f2",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 955.57,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739755829/GC_39_39398e60f2.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_39_39398e60f2",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T01:30:30.378Z",
+        "updatedAt": "2025-02-17T01:30:30.378Z",
+        "publishedAt": "2025-02-17T01:30:30.378Z"
+      }
+    ],
+    "seo": {
+      "id": 80,
+      "seoTitle": "Door & Window Repair | Secure & Energy-Efficient – SCG Services",
+      "seoDescription": "SCG Services provides expert door and window repair, fixing misalignments, locks, and drafts for better security and efficiency. Contact us today!"
+    }
+  },
+  {
+    "id": 48,
+    "documentId": "fg5s7c3f0j7d1wwtd38glh3l",
+    "title": "Cabinets Repair",
+    "description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Give your cabinets and furniture a second life with SCG Services' expert repair. We fix scratches, broken hinges, and loose joints, restoring beauty and functionality.",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-17T01:33:32.657Z",
+    "updatedAt": "2025-02-17T01:33:34.493Z",
+    "publishedAt": "2025-02-17T01:33:34.519Z",
+    "images": [
+      {
+        "id": 37,
+        "documentId": "p1pc9hrxevyi6x0on36ajg81",
+        "name": "GC (40).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 1268,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739756003/large_GC_40_1d2fa957bb.png",
+            "hash": "large_GC_40_1d2fa957bb",
+            "mime": "image/png",
+            "name": "large_GC (40).png",
+            "path": null,
+            "size": 1157.18,
+            "width": 1000,
+            "height": 660,
+            "sizeInBytes": 1157178,
+            "provider_metadata": {
+              "public_id": "large_GC_40_1d2fa957bb",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739756003/small_GC_40_1d2fa957bb.png",
+            "hash": "small_GC_40_1d2fa957bb",
+            "mime": "image/png",
+            "name": "small_GC (40).png",
+            "path": null,
+            "size": 305.06,
+            "width": 500,
+            "height": 330,
+            "sizeInBytes": 305055,
+            "provider_metadata": {
+              "public_id": "small_GC_40_1d2fa957bb",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739756003/medium_GC_40_1d2fa957bb.png",
+            "hash": "medium_GC_40_1d2fa957bb",
+            "mime": "image/png",
+            "name": "medium_GC (40).png",
+            "path": null,
+            "size": 661.75,
+            "width": 750,
+            "height": 495,
+            "sizeInBytes": 661746,
+            "provider_metadata": {
+              "public_id": "medium_GC_40_1d2fa957bb",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739756003/thumbnail_GC_40_1d2fa957bb.png",
+            "hash": "thumbnail_GC_40_1d2fa957bb",
+            "mime": "image/png",
+            "name": "thumbnail_GC (40).png",
+            "path": null,
+            "size": 77.42,
+            "width": 236,
+            "height": 156,
+            "sizeInBytes": 77417,
+            "provider_metadata": {
+              "public_id": "thumbnail_GC_40_1d2fa957bb",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "GC_40_1d2fa957bb",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 989.2,
+        "url": "https://res.cloudinary.com/damiancanelles/image/upload/v1739756003/GC_40_1d2fa957bb.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "GC_40_1d2fa957bb",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-02-17T01:33:24.095Z",
+        "updatedAt": "2025-02-17T01:33:24.095Z",
+        "publishedAt": "2025-02-17T01:33:24.096Z"
+      }
+    ],
+    "seo": {
+      "id": 82,
+      "seoTitle": "Cabinet & Furniture Repair | Restore & Fix – SCG Services",
+      "seoDescription": "SCG Services offers cabinet and furniture repair, restoring scratches, hinges, and loose joints for a refreshed look. Get expert repairs today!"
+    }
+  }
+]

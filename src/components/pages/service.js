@@ -1,17 +1,16 @@
 import Image from "next/image";
 import RichTextRenderer from "../strapiDescription";
+import { getService } from "@/lib/content";
 
-export default async function ServiceDetailComponent({id}) {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const responseService = await fetch(`${apiUrl}/api/services/${id}?populate=*`);
-  const service = await responseService.json();
+export default function ServiceDetailComponent({id}) {
+  const service = { data: getService(id) };
 
   const optimizeCloudinaryImage = (url, width = 600) => {
     if (!url.includes("res.cloudinary.com")) return url;
     return url.replace("/upload/", `/upload/f_auto,q_auto,c_scale,w_${width}/`);
   };
 
-  if (!service) {
+  if (!service.data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p>Loading...</p>
